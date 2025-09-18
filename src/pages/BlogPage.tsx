@@ -20,7 +20,7 @@ const BlogPage: React.FC = () => {
     try {
       // Save to Supabase
       const subscriptionData = { email: newsletterEmail, source: 'blog' as const };
-      const result = await newsletterService.createSubscription(subscriptionData);
+      const result = await newsletterService.subscribe(subscriptionData);
       
       // Set request ID from response
       setRequestId(result.requestId);
