@@ -40,7 +40,7 @@ const ContactPage: React.FC = () => {
 
     try {
       // Save to Supabase
-      const result = await contactService.createContactInquiry(formData);
+      const result = await contactService.create(formData);
       
       // Set request ID from response
       setRequestId(result.requestId);
@@ -98,12 +98,10 @@ const ContactPage: React.FC = () => {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Visit Our Center',
       details: [
-        'No 10, 5th B Cross',
-        'Sharadamba Nagar, Jalahalli',
-        'Bangalore - 560013'
+        'No.1794, 36/3, 27th Main Rd, near Power Station, 2nd Sector, ITI Layout, 7th Sector, HSR Layout, Bengaluru, Karnataka 560102'
       ],
       description: 'Tour our facilities and meet our team in person',
-      action: 'https://maps.google.com/?q=13.0500,77.5500',
+      action: 'https://maps.google.com/?q=12.900768690963808, 77.65054254952277',
       color: 'bg-pink-100 text-pink-600'
     },
     {
@@ -468,7 +466,7 @@ const ContactPage: React.FC = () => {
           
           <div className="bg-white p-4 rounded-xl shadow-lg border border-gray-300">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0142!2d77.5500!3d13.0500!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAzJzAwLjAiTiA3N8KwMzMnMDAuMCJF!5e0!3m2!1sen!2sin!4v1635959456789!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.11059410574!2d77.64569587827908!3d12.900609554941338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae156b204005b5%3A0x9576fc560c8a1ed5!2sBHIVE%20Workspace%20HSR%2027th%20Main!5e0!3m2!1sen!2sin!4v1758190875465!5m2!1sen!2sin"
               title="EzyElders Location Map - Senior Care Center in Bangalore"
               width="100%"
               height="450"

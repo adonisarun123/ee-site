@@ -99,8 +99,11 @@ const Footer: React.FC = () => {
                 <MapPin className="w-5 h-5 mt-1 text-pink-600" />
                 <div>
                   <p className="text-gray-300">
-                    No 10, 5th B Cross, Sharadamba Nagar<br />
-                    Jalahalli, Bangalore - 560013
+                  No.1794, 36/3, 27th Main Rd,<br />
+                  near Power Station,<br />
+                  2nd Sector, ITI Layout,<br />
+                  7th Sector, HSR Layout,<br /> 
+                  Bengaluru, Karnataka 560102
                   </p>
                 </div>
               </div>

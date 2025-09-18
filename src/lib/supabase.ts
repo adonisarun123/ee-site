@@ -1,16 +1,16 @@
 import { createClient } from '@supabase/supabase-js'
 
-if (!process.env.NEXT_PUBLIC_SUPABASE_URL) {
-  throw new Error('Missing environment variable NEXT_PUBLIC_SUPABASE_URL')
+if (!process.env.REACT_APP_SUPABASE_URL) {
+  throw new Error('Missing environment variable REACT_APP_SUPABASE_URL')
 }
 
-if (!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
-  throw new Error('Missing environment variable NEXT_PUBLIC_SUPABASE_ANON_KEY')
+if (!process.env.REACT_APP_SUPABASE_ANON_KEY) {
+  throw new Error('Missing environment variable REACT_APP_SUPABASE_ANON_KEY')
 }
 
 export const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+  process.env.REACT_APP_SUPABASE_URL,
+  process.env.REACT_APP_SUPABASE_ANON_KEY
 )
 
 // Types
@@ -65,6 +65,7 @@ export interface NewsletterSubscription {
 // Services
 export const memberService = {
   async create(member: Omit<Member, 'id' | 'created_at' | 'status'>) {
+    const requestId = generateRequestId()
     const { data, error } = await supabase
       .from('members')
       .insert([{ ...member, status: 'pending' }])
@@ -72,7 +73,7 @@ export const memberService = {
       .single()
 
     if (error) throw error
-    return data
+    return { ...data, requestId }
   },
 
   async getById(id: string) {
@@ -89,6 +90,7 @@ export const memberService = {
 
 export const volunteerService = {
   async create(volunteer: Omit<Volunteer, 'id' | 'created_at' | 'status'>) {
+    const requestId = generateRequestId()
     const { data, error } = await supabase
       .from('volunteers')
       .insert([{ ...volunteer, status: 'pending' }])
@@ -96,7 +98,7 @@ export const volunteerService = {
       .single()
 
     if (error) throw error
-    return data
+    return { ...data, requestId }
   },
 
   async getById(id: string) {
@@ -113,6 +115,7 @@ export const volunteerService = {
 
 export const contactService = {
   async create(inquiry: Omit<ContactInquiry, 'id' | 'created_at' | 'status'>) {
+    const requestId = generateRequestId()
     const { data, error } = await supabase
       .from('contact_inquiries')
       .insert([{ ...inquiry, status: 'new' }])
@@ -120,12 +123,13 @@ export const contactService = {
       .single()
 
     if (error) throw error
-    return data
+    return { ...data, requestId }
   },
 }
 
 export const newsletterService = {
   async subscribe(subscription: Omit<NewsletterSubscription, 'id' | 'created_at' | 'status'>) {
+    const requestId = generateRequestId()
     const { data, error } = await supabase
       .from('newsletter_subscriptions')
       .insert([{ ...subscription, status: 'active' }])
@@ -133,7 +137,7 @@ export const newsletterService = {
       .single()
 
     if (error) throw error
-    return data
+    return { ...data, requestId }
   },
 }
 
