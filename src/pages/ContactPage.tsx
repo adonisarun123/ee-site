@@ -98,7 +98,7 @@ const ContactPage: React.FC = () => {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Visit Our Center',
       details: [
-        'No.1794, 36/3, 27th Main Rd, near Power Station, 2nd Sector, ITI Layout, 7th Sector, HSR Layout, Bengaluru, Karnataka 560102'
+        '10, 5th B cross, Sharadamba Nagar, Jalahalli, Bangalore 560013'
       ],
       description: 'Tour our facilities and meet our team in person',
       action: 'https://maps.google.com/?q=12.900768690963808, 77.65054254952277',
@@ -466,7 +466,7 @@ const ContactPage: React.FC = () => {
           
           <div className="bg-white p-4 rounded-xl shadow-lg border border-gray-300">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.11059410574!2d77.64569587827908!3d12.900609554941338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae156b204005b5%3A0x9576fc560c8a1ed5!2sBHIVE%20Workspace%20HSR%2027th%20Main!5e0!3m2!1sen!2sin!4v1758190875465!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.8852366074184!2d77.54335727489425!3d13.042976287278972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d45ec69608d%3A0x73a0f052f8792fed!2s10%2C%205th%20B%20Cross%20Rd%2C%20Sharadamba%20Nagar%2C%20Sharadhamba%20Nagar%2C%20Jalahalli%20Village%2C%20Jalahalli%2C%20Bengaluru%2C%20Karnataka%20560013!5e0!3m2!1sen!2sin!4v1759904321953!5m2!1sen!2sin"
               title="EzyElders Location Map - Senior Care Center in Bangalore"
               width="100%"
               height="450"
