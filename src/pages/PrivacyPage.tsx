@@ -41,7 +41,7 @@ const PrivacyPage: React.FC = () => {
             <h2>4. Contact Us</h2>
             <p>
               If you have any questions about this Privacy Policy, please contact us at 
-              info@ezyhelpers.com or call +91-73496 53339.
+              ezyelders@gmail.com or call +91 98455 80799.
             </p>
           </div>
         </div>

@@ -957,13 +957,13 @@ const JoinUsPage: React.FC = () => {
               If you have any questions about membership or volunteering, don't hesitate to reach out to our friendly team.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <a href="tel:+917349653339">
+              <a href="tel:+919845580799">
                 <button className="bg-white text-pink-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors flex items-center gap-2">
                   <Phone className="w-5 h-5" />
-                  Call Us: +91-73496 53339
+                  Call Us: +91 98455 80799
                 </button>
               </a>
-              <a href="mailto:info@ezyhelpers.com">
+              <a href="mailto:ezyelders@gmail.com">
                 <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-pink-600 transition-all flex items-center gap-2">
                   <Mail className="w-5 h-5" />
                   Email Us

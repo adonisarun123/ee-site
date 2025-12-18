@@ -81,17 +81,17 @@ const ContactPage: React.FC = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Call Us Anytime',
-      details: ['+91-73496 53339'],
+      details: ['+91 98455 80799'],
       description: 'Speak directly with our care coordinators who understand senior needs',
-      action: 'tel:+917349653339',
+      action: 'tel:+919845580799',
       color: 'bg-pink-100 text-pink-600'
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email Support',
-      details: ['info@ezyhelpers.com'],
+      details: ['ezyelders@gmail.com'],
       description: 'Send us detailed questions and receive comprehensive responses',
-      action: 'mailto:info@ezyhelpers.com',
+      action: 'mailto:ezyelders@gmail.com',
       color: 'bg-cyan-100 text-cyan-500'
     },
     {
@@ -235,7 +235,7 @@ const ContactPage: React.FC = () => {
                   Get immediate responses to urgent questions or schedule a visit through WhatsApp. Our team is ready to help you right away.
                 </p>
                 <a
-                  href="https://wa.me/917349653339?text=Hello,%20I%20need%20information%20about%20EzyElders%20services%20for%20seniors"
+                  href="https://wa.me/919845580799?text=Hello,%20I%20need%20information%20about%20EzyElders%20services%20for%20seniors"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors font-semibold"
@@ -506,14 +506,14 @@ const ContactPage: React.FC = () => {
               Don't wait to enhance your quality of life or that of your loved ones. Contact us today and discover how we can make the senior years truly golden.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <a href="tel:+917349653339">
+              <a href="tel:+919845580799">
                 <button className="bg-white text-pink-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors flex items-center gap-2">
                   <Phone className="w-5 h-5" />
                   Call Us Now
                 </button>
               </a>
               <a
-                href="https://wa.me/917349653339?text=Hello,%20I%20would%20like%20to%20schedule%20a%20visit%20to%20EzyElders"
+                href="https://wa.me/919845580799?text=Hello,%20I%20would%20like%20to%20schedule%20a%20visit%20to%20EzyElders"
                 target="_blank"
                 rel="noopener noreferrer"
               >

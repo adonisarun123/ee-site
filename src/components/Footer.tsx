@@ -86,13 +86,13 @@ const Footer: React.FC = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 mt-1 text-pink-600" />
                 <div>
-                  <p className="text-gray-300">+91-73496 53339</p>
+                  <p className="text-gray-300">+91 98455 80799</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 mt-1 text-cyan-500" />
                 <div>
-                  <p className="text-gray-300">info@ezyhelpers.com</p>
+                  <p className="text-gray-300">ezyelders@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -161,7 +161,7 @@ const Footer: React.FC = () => {
             "logo": "https://www.ezyhelpers.com/images/logo.png",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+91-73496 53339",
+              "telephone": "+91 98455 80799",
               "contactType": "Customer Service",
               "areaServed": "IN"
             },
@@ -180,7 +180,7 @@ const Footer: React.FC = () => {
             "@type": "LocalBusiness",
             "name": "EzyElders",
             "image": "https://www.ezyhelpers.com/images/elderly.jpg",
-            "telephone": "+91-73496 53339",
+            "telephone": "+91 98455 80799",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "No 10, 5th B Cross, Sharadamba Nagar",

@@ -75,8 +75,8 @@ npm start
 
 ## 📱 Contact
 
-- **Phone**: +91-73496 53339
-- **Email**: info@ezyhelpers.com
+- **Phone**: +91 98455 80799
+- **Email**: ezyelders@gmail.com
 - **Address**: No 10, 5th B Cross, Sharadamba Nagar, Jalahalli, Bangalore - 560013
 
 ## 🤝 Contributing

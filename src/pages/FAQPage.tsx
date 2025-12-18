@@ -25,7 +25,7 @@ const FAQPage: React.FC = () => {
     {
       category: 'Membership',
       question: 'How do I become a member?',
-      answer: 'Becoming a member is simple! You can visit our center, call us at +91-73496 53339, or fill out the contact form on our website. Our team will guide you through the registration process, help you choose the right membership plan, and get you started with our activities.'
+      answer: 'Becoming a member is simple! You can visit our center, call us at +91 98455 80799, or fill out the contact form on our website. Our team will guide you through the registration process, help you choose the right membership plan, and get you started with our activities.'
     },
     {
       category: 'Membership',
@@ -225,13 +225,13 @@ const FAQPage: React.FC = () => {
               Our friendly team is here to help. Reach out to us through any of these channels
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <a href="tel:+917349653339">
+              <a href="tel:+919845580799">
                 <button className="bg-white text-dark-lavender px-8 py-3 rounded-full font-semibold text-lg hover:bg-gray-100 transition-colors">
                   Call Us Now
                 </button>
               </a>
               <a
-                href="https://wa.me/917349653339?text=Hi,%20I%20have%20a%20question%20about%20EzyElders"
+                href="https://wa.me/919845580799?text=Hi,%20I%20have%20a%20question%20about%20EzyElders"
                 target="_blank"
                 rel="noopener noreferrer"
               >

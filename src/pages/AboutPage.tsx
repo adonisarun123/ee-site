@@ -375,8 +375,8 @@ const AboutPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Contact</h3>
               <p className="text-gray-800">
-                +91-73496 53339<br />
-                info@ezyhelpers.com
+                +91 98455 80799<br />
+                ezyelders@gmail.com
               </p>
             </motion.div>
 
