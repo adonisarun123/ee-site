@@ -39,7 +39,7 @@ const TermsPage: React.FC = () => {
 
             <h2>4. Contact Information</h2>
             <p>
-              For questions about these terms, contact us at info@ezyhelpers.com or +91-73496 53339.
+              For questions about these terms, contact us at ezyelders@gmail.com or +91 98455 80799.
             </p>
           </div>
         </div>
